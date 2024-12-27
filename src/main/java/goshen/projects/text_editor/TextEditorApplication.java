@@ -18,7 +18,7 @@ public class TextEditorApplication implements ApplicationRunner {
     }
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
+    public void run(ApplicationArguments args) {
         presentationComponent.present();
     }
 }
